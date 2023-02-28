@@ -4,5 +4,5 @@
 
 <p>Repositório da Aprenizagem Industrial de Programador Back-End.</p>
 <div align="center">
-  <img src="https://t4.ftcdn.net/jpg/04/14/84/01/360_F_414840163_zuiXS6MoUduwiEWsuEe7kpsDKrhDaPYQ.jpg"/>
+  <img src="https://user-images.githubusercontent.com/125307867/221834610-710c38c6-e317-471c-8180-62ff1509dd9f.png"/>
 </div>
