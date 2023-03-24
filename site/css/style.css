@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+}
+
+/* id=# class=. */
+
+#titulo {
+    font-size: 50px;
+    color: green;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#hr1 {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    height: 10px;
+
+}
+
+.logica {
+    font-size: xx-large;
+    color: white;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textologica {
+    color: white;
+    font-family: 'Calibri';
+    margin-left: 10px;
+}
+
+#botao1 {
+    margin-left: 10px;
+    font-family: 'Courier New';
+    color: green;
+    font-size: medium;
+    width: 70px;
+    height: 50px;
+}
+
+.versionamento {
+    font-size: xx-large;
+    color: white;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textoversionamento {
+    color: white;
+    font-family: 'Calibri';
+    margin-left: 10px;
+}
+
+#botao2 {
+    margin-left: 10px;
+    font-family: 'Courier New';
+    color: green;
+    font-size: medium;
+    width: 70px;
+    height: 50px;
+}
+
+.metodologias {
+    font-size: xx-large;
+    color: white;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textometodologias {
+    color: white;
+    font-family: 'Calibri';
+    margin-left: 10px;
+}
+
+#botao3 {
+    margin-left: 10px;
+    font-family: 'Courier New';
+    color: green;
+    font-size: medium;
+    width: 70px;
+    height: 50px;
+}
+
+.apis {
+    font-size: xx-large;
+    color: white;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textoapis {
+    color: white;
+    font-family: 'Calibri';
+    margin-left: 10px;
+}
+
+#botao4 {
+    margin-left: 10px;
+    font-family: 'Courier New';
+    color: green;
+    font-size: medium;
+    width: 70px;
+    height: 50px;
+}
