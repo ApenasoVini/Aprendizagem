@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background: url("video1.mp4");
+    background-size: cover;
+
+}
+
+/* id= # class= . */
+
+#aula {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 20px;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #000); 
+}
+
+b {
+    color: yellow;
+}
+
+.dados {
+    height: 50px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: system-ui;
+    font-size: medium;
+}
+
+#botao{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    font-family: Arial;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+  #botao:hover {
+     background-color: black;
+     color: white;
+     font-size: x-large;
+     font-family: Arial;
+     border-radius: 10px;
+     padding: 10px;
+     height: 50px;
+     width: 200px;
+     border: 2px solid white;
+}
+
+#video1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    filter: blur(1px);
+  }
