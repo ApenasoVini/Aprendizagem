@@ -1,0 +1,80 @@
+/* id=#  class=. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#titulo {
+    margin-top: 20px;
+    font-family: system-ui;
+    text-align: center;
+
+}
+
+#display {
+    height: 50px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    font-family: Arial;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.numeros {
+    font-size: x-large;
+    width: 40px;
+    color: black;
+    background-color: white;
+}
+
+#div1 {
+    margin-top: 100px;
+    color: black;
+    background-color: white;
+}
+
+#numero0 {
+    width: 129px;
+    font-size: x-large;
+    color: black;
+    background-color: white;
+}
+
+.operacoes {
+    font-size: x-large;
+    width: 40px;
+    color: orange;
+    background-color: black;
+}
+
+#limpar {
+    font-size: x-large;
+    width: 50px;
+    height: 50px;
+    color: orange;
+    background-color: black;
+}
+
+#div2 {
+    margin-top: 15px;
+}
+
+#igual {
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+    color: orange;
+    background-color: black;
+}
+
+b {
+    color: orange;
+}

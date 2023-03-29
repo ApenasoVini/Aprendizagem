@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="midia/calculadora.png">
+  <title>Calculadora</title>
+</head>
+
+<body>
+
+  <h1 id="titulo"><b>C</b>alculadora <b>B</b>ásica <b>O</b>nline</h1>
+  <div id="div1" style="text-align: center;">
+    <input id="display" type="text" disabled>
+    <br>
+    <br>
+    <button class="operacoes" onclick="addToDisplay('+')">+</button>
+    <button class="numeros" onclick="addToDisplay(1)">1</button>
+    <button class="numeros" onclick="addToDisplay(2)">2</button>
+    <button class="numeros" onclick="addToDisplay(3)">3</button>
+    <br>
+    <button class="operacoes" onclick="addToDisplay('-')">-</button>
+    <button class="numeros" onclick="addToDisplay(4)">4</button>
+    <button class="numeros" onclick="addToDisplay(5)">5</button>
+    <button class="numeros" onclick="addToDisplay(6)">6</button>
+    <br>
+    <button class="operacoes" onclick="addToDisplay('*')">*</button>
+    <button class="numeros" onclick="addToDisplay(7)">7</button>
+    <button class="numeros" onclick="addToDisplay(8)">8</button>
+    <button class="numeros" onclick="addToDisplay(9)">9</button>
+    <br>
+    <button class="operacoes" onclick="addToDisplay('/')">/</button>
+    <button id="numero0" onclick="addToDisplay(0)">0</button>
+  </div>
+
+  <div id="div2" style="text-align: center;">
+    <button id="limpar" onclick="limpar()">C</button>
+    <button id="igual" onclick="resultado()">=</button>
+  </div>
+
+</body>
+
+</html>
+<script>
+
+  let display = document.getElementById('display');
+
+  function addToDisplay(value) {
+    display.value += value;
+  }
+
+  function limpar(value) {
+    display.value = '';
+  }
+  function resultado() {
+    try {
+      let result = eval(display.value);
+      display.value = result;
+    } catch (e) {
+      console.log('Erro ao calcular: ' + e);
+    }
+  }
+</script>
