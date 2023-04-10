@@ -1,0 +1,94 @@
+{
+    "placa": [
+        {
+            "code": "API-1234",
+            "marca": "Ferrari",
+            "modelo": "ROMA.",
+            "ano": "2019",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "GHI-7654",
+            "marca": "Ferrari",
+            "modelo": "296 GTB.",
+            "ano": "2022",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "GGG-5667",
+            "marca": "Ferrari",
+            "modelo": "812 GTS.",
+            "ano": "2023",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "JIP-5566",
+            "marca": "Ferrari",
+            "modelo": "F8 SPIDER.",
+            "ano": "2020",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "OIE-6924",
+            "marca": "Ferrari",
+            "modelo": "F8 TRIBUTO.",
+            "ano": "2020",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "AAE-9098",
+            "marca": "Ferrari",
+            "modelo": "PORTOFINO.",
+            "ano": "2017",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "SIM-7676",
+            "marca": "Ferrari",
+            "modelo": "SF90.",
+            "ano": "2022",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "NOO-1223",
+            "marca": "Lamborghini",
+            "modelo": "Huracán.",
+            "ano": "2014",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "FDS-1255",
+            "marca": "BMW",
+            "modelo": "320i.",
+            "ano": "2019",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        },
+        {
+            "code": "FDP-2424",
+            "marca": "Volkswagen",
+            "modelo": " Gol GTI 2.0 i.",
+            "ano": "1988",
+            "status": 200,
+            "ok": true,
+            "statusText": "ok"
+        }
+    ]
+}
