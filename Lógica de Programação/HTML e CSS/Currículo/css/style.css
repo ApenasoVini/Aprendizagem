@@ -38,8 +38,8 @@ body {
    
 #imagemv{
     float: right;
-    margin-top: -350px;
+    margin-top: -390px;
     margin-right: 100px;
-    width: 400px;
-    height: 350px;
+    width: 30vw;
+    height: 60vh;
 }

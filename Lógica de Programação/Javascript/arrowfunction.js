@@ -1,4 +1,4 @@
-function calcularMedia(nota1, nota2, nota3, nota4) {
+function calcularMedia() {
     var media = (nota1 + nota2 + nota3 + nota4) / 4;
     return media;
   }
@@ -7,3 +7,4 @@ function calcularMedia(nota1, nota2, nota3, nota4) {
   var nota3 = 7.5;
   var nota4 = 9.5;
     
+  calcularMedia()
