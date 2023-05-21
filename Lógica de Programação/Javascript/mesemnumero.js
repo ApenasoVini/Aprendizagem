@@ -1,4 +1,4 @@
-function mes(mesEmNumero){
+function mes(){
     mesEmNumero = prompt(`Em que mês estamos?`)
     switch(mesEmNumero){
         case "1":
