@@ -19,7 +19,7 @@
 
                 info.innerHTML =
                     `
-            <img style:"margin: 30px; border-radius: 100px; height: 200px; width:200px" src = "${avatar}">
+            <img src = "${avatar}">
             <p>Nome: ${login}<p>
             <p>Seguidores: ${followers}<p>
             <p>Seguindo: ${following}<p>
