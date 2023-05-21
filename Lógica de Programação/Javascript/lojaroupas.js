@@ -6,7 +6,7 @@ var tipoCalca
 var quantidade
 
 do{
-opcao = prompt("Bom dia, o que você deseja olhar?\n\nCamisetas\nCalças\nSair")
+opcao = prompt("Bom dia, o que você deseja?\n\nCamisetas\nCalças\nSair")
 switch(opcao){
     case "Camisetas":
         alert("Ok,temos:\n\nCamiseta Listrada\nCamiseta com Estampa")
