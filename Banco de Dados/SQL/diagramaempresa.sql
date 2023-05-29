@@ -2,47 +2,41 @@ CREATE TABLE clientes(
     cpf VARCHAR(11) PRIMARY KEY,
     nome VARCHAR(150) NOT NULL,
     telefone VARCHAR(50),
-    id VARCHAR(10) NOT NULL,
-    FOREIGN KEY (id) REFERENCES produto (id)
+    id_produto VARCHAR(10) NOT NULL,
+    FOREIGN KEY (id_produto) REFERENCES produto (id_produto)
 );
 
 CREATE TABLE empresa(
     cnpj VARCHAR(13) PRIMARY KEY,
     nome VARCHAR(50) NOT NULL,
     patrimonio INT NOT NULL,
-    data_criação DATE NOT NULL
-    id VARCHAR(10) NOT NULL,
+    data_criação DATE NOT NULL,
+    id_produto VARCHAR(10) NOT NULL,
     codigo VARCHAR(10) NOT NULL,
-    id VARCHAR(10) NOT NULL,
+    id_funcionarios VARCHAR(10) NOT NULL,
     FOREIGN KEY (codigo) REFERENCES setores (codigo),
-    FOREIGN KEY (id) REFERENCES funcionarios (id).
-    FOREIGN KEY (id) REFERENCES produto (id)
+    FOREIGN KEY (id_funcionarios) REFERENCES funcionarios (id_funcionarios),
+    FOREIGN KEY (id_produto) REFERENCES produto (id_produto)
 );
 
 CREATE TABLE setores(
     codigo VARCHAR(10) PRIMARY KEY,
     funcao VARCHAR(30) NOT NULL,
     gastos INT NOT NULL,
-    lucro INT NOT NULL,
-    id VARCHAR(10) NOT NULL,
-    cnpj VARCHAR(13) NOT NULL,
-    FOREIGN KEY (id) REFERENCES funcionarios (id),
-    FOREIGN KEY (cnpj) REFERENCES empresa (cnpj)
+    lucro INT NOT NULL
 );
 
 CREATE TABLE produto(
-    id VARCHAR(10) PRIMARY KEY,
+    id_produto VARCHAR(10) PRIMARY KEY,
     valor INT NOT NULL,
     nome VARCHAR(40) NOT NULL,
-    cnpj VARCHAR(13) NOT NULL,
+    cnpj VARCHAR(13) NOT NULL
 );
 
 CREATE TABLE funcionarios(
-    id VARCHAR(10) PRIMARY KEY,
+    id_funcionarios VARCHAR(10) PRIMARY KEY,
     salario INT NOT NULL,
-    horario VARCHAR(12) NOT NULL,
-    cnpj VARCHAR(13) NOT NULL,
-    FOREIGN KEY (cnpj) REFERENCES empresa (cnpj)
+    horario VARCHAR(12) NOT NULL
 );
 
 INSERT INTO clientes (cpf, nome, telefone, id) VALUES
