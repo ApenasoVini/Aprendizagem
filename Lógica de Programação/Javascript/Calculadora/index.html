@@ -9,10 +9,9 @@
   <link rel="icon" href="midia/calculadora.png">
   <title>Calculadora</title>
 </head>
-
 <body>
 
-  <div id="div1">
+  <div id="div">
     <input id="display" type="text" disabled>
     <br>
     <br>
@@ -33,15 +32,11 @@
     <br>
     <button class="operacoes" onclick="addToDisplay('/')">/</button>
     <button id="numero0" onclick="addToDisplay(0)">0</button>
+    <button class="operacoes" onclick="limpar()">C</button>
+    <button class="operacoes" onclick="resultado()">=</button>
+    
   </div>
-
-  <div id="div2" style="text-align: center;">
-    <button id="limpar" onclick="limpar()">C</button>
-    <button id="igual" onclick="resultado()">=</button>
-  </div>
-
   <script src="index.js"></script>
 
 </body>
-
 </html>
