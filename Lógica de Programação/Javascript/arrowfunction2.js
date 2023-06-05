@@ -1,7 +1,7 @@
-soma = function soma(a, b){
-    return (a +b)
+const soma = (a, b) => {
+    return a + b;
 }
 
-multiplica = function multiplica(a, b){
-    return (a * b)
+const multiplica = (a, b) => {
+    return a * b;
 }

@@ -1,7 +1,15 @@
-parimpar(57)
-parimpar(28)
+function numeros(input) {
+        return /^\d+$/.test(input);
+      }
 
+function parimpar(){
+    
+    do {
+    var num = prompt("Digite um número")
+    } while (!numeros(num))
 
-function parimpar(num){
-    return num % 2 == 0 ? console.log(`Par`) : console.log(`Impar`) 
+    return num % 2 == 0 ? alert(`Par`) : alert(`Impar`) 
 }
+
+parimpar()
+numeros(input)

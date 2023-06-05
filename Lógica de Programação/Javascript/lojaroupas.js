@@ -1,9 +1,6 @@
-let estoqueCamisas = 56
-let estoqueCalcas = 45
-var opcao
-var tipoCamiseta
-var tipoCalca
-var quantidade
+let estoqueCamisas = 10
+let estoqueCalcas = 10
+var opcao, tipoCamiseta, tipoCalca, quantidade
 
 do{
 opcao = prompt("Bom dia, o que você deseja?\n\nCamisetas\nCalças\nSair")
