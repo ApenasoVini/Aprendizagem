@@ -6,7 +6,6 @@ function numerosEscolhidos() {
   var num5 = prompt("Escolha o quinto número no formato xx e x");
   var num6 = prompt("Escolha o sexto número no formato xx e x");
   alert("Seus números são: " + num1 + "," + num2 + "," + num3 + "," + num4 + "," + num5 + "," + num6);
-
 }
 
 function gerarNumeroAleatorio(min, max) {
@@ -25,5 +24,5 @@ function sortearMegaSena() {
   return numerosSorteados;
 }
 
-sortearMegaSena()
-numerosEscolhidos()
+sortearMegaSena();
+numerosEscolhidos();
