@@ -16,7 +16,7 @@ if (cep.value.length == 8){
     function buscaEndereco() {
         if (defineCampos()){
         var cepValido = cep.value.substr(0, 5) + "-" + cep.value.substr(5);
-        var url = "https://my-json-server.typicode.com/pedroo-nietoo/aprendizagem-Industrial/cep/?code="+ cepValido
+        var url = "https://my-json-server.typicode.com/ApenasoVini/Curso/Carros/db/cep/?code="+ cepValido
         fetch(url)
             .then(res => res.json())
             .then(data => {

@@ -8,7 +8,7 @@
     }
     function buscaCarro() {
         campos()
-        var url = `https://my-json-server.typicode.com/ApenasoVini/Curso/Carros/info/placas/?placa=${placa.value.toUpperCase()}`
+        var url = `https://my-json-server.typicode.com/ApenasoVini/Curso/Carros/db/placas/?placa=${placa.value.toUpperCase()}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
