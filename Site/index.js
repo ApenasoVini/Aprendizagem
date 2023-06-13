@@ -7,3 +7,7 @@ function Banco_de_Dados() {
 function APIs() {
             window.location.href = "https://github.com/ApenasoVini/Curso-Back-End/tree/main/APIs"
         }
+
+/*link na imagem
+id ou class na imagem
+hover na imagem (transition 0.3 seg - aumentar w e h)*/
