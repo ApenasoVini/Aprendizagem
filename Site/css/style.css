@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 /* id=# class=. */
 
-
-#div1 {
-    
+#img1 {
+    text-align: left;
+    border-radius: 5px;
+    width: 25vw;
+    height: 80vh;
 }
+
+
+
