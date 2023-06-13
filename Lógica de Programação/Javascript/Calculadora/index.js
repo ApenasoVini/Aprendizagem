@@ -12,7 +12,7 @@ function limpar1() {
   display.value = display.value.substring(0, display.value.length - 1);
 }
 
-function resultado() {
+function calcular() {
   try {
     let result = eval(display.value);
     display.value = result;
