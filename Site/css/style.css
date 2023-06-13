@@ -10,58 +10,7 @@ body {
 
 /* id=# class=. */
 
-#titulo {
-    font-size: 50px;
-    color: limegreen;
-    font-family: system-ui;
-    text-align: center;
-    margin-top: 5px;
-}
 
-#hr1 {
-    margin-top: 20px;
-    background-color: limegreen;
-    color: white;
-    height: 1vh;
-}
-
-.temas {
-    font-size: xx-large;
-    color: white;
-    font-family: Arial;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.texto {
-    color: white;
-    font-family: 'system-ui';
-    margin-left: 10px;
-    margin-top:  10px;
-    margin-right: 500px;
-    text-align: justify;
-}
-
-.botao {
-    margin-left: 10px;
-    font-family: 'system-ui';
-    color: green;
-    font-size: medium;
-    width: 7vw;
-    height: 7vh;
-    text-align: center;
-    border-radius: 4px;
-    border: 1px solid green;
-}
-
-.botao:hover {
-    margin-left: 10px;
-    font-family: 'system-ui';
-    font-size: medium;
-    width: 7vw;
-    height: 7vh;
-    text-align: center;
-    border-radius: 4px;
-    color: white;
-    background-color: green;
+#div1 {
+    
 }
