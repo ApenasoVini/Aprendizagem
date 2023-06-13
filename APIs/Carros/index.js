@@ -13,7 +13,6 @@
             .then(res => res.json())
             .then(data => {
 
-
                 marca = data[0].marca
                 modelo = data[0].modelo
                 ano = data[0].ano
