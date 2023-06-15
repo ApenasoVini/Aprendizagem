@@ -10,7 +10,7 @@ body {
 }
 
 /* id=# class=. */
-#img1 {
+.img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
@@ -22,7 +22,7 @@ body {
     border: solid 5px green;
 }
 
-#img1:hover {
+.img:hover {
     -webkit-filter: none;
     filter:blur(1px);
     z-index: -1;
