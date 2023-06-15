@@ -10,32 +10,25 @@ body {
 
 /* id=# class=. */
 
-#img1 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfsiFjgdZwxJ-VokHNOxyPxRMPbv102bbZEw&usqp=CAU");
-    background-repeat: no-repeat;
+.div {
     text-align: left;
-    border-radius: 5px;
-    width: 25vw;
-    height: 80vh;
+
+    transition: 0.3s;
+}
+
+.div:hover {
+    text-align: left;
+    transition: 0.3s;
+}
+
+#img1 {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
-    transition: 0.3s;
-    z-index: -1;
 }
 
 #img1:hover {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfsiFjgdZwxJ-VokHNOxyPxRMPbv102bbZEw&usqp=CAU");
-    background-repeat: no-repeat;
-    text-align: left;
-    border-radius: 5px;
-    width: 30vw;
-    height: 85vh;
-    transition: 0.3s;
     -webkit-filter: none;
-    filter:blur(4px);
-    z-index: -1;
+    filter:blur(1px);
 }
-
-
 
