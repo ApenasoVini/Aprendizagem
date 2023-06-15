@@ -8,7 +8,7 @@ function parimpar(){
     var num = prompt("Digite um número");
     } while (!numeros(num));
 
-    return num % 2 == 0 ? alert(`Par`) : alert(`Impar`) ;
+    return num % 2 == 0 ? alert(`Par`) : alert(`Impar`);
 }
 
 parimpar();

@@ -4,7 +4,7 @@ function mes(){
 
     switch(mesEmNumero){
         
-        case "1":
+            case "1":
             alert(`Janeiro.`);
             break;
         
@@ -53,4 +53,5 @@ function mes(){
             break;
     }
 }
+
 mes()

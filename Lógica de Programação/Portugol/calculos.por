@@ -31,12 +31,10 @@ programa
 			se(opcao =="4"){
 				resultado=num1/num2
 				escreva("O resultado é "+resultado)
-			}
-
-
-			
+			}	
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
