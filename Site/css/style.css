@@ -5,33 +5,31 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 
 /* id=# class=. */
-
-.div {
-    transition: 0.3s;
-}
-
-.div:hover {
-    transition: 0.3s;
-}
-
 #img1 {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
     z-index: -1;
     height: 80vh;
-    width: 30vw;
+    width: 25vw;
     border-radius: 20px;
+    transition: 0.3s;
+    border: solid 5px green;
 }
 
 #img1:hover {
     -webkit-filter: none;
     filter:blur(1px);
     z-index: -1;
+    height: 85vh;
+    width: 28vw;
     border-radius: 20px;
+    transition: 0.3s;
+    border: solid 5px green;
 }
 
