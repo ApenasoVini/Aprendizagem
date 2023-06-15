@@ -30,7 +30,7 @@ CREATE TABLE produto(
     id_produto VARCHAR(10) PRIMARY KEY,
     valor INT NOT NULL,
     nome VARCHAR(40) NOT NULL
-  );
+);
 
 CREATE TABLE funcionarios(
     id_funcionarios VARCHAR(10) PRIMARY KEY,

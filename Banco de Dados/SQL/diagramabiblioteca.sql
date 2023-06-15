@@ -54,4 +54,4 @@ CREATE TABLE reservas(
     cpf VARCHAR(11) NOT NULL,
     FOREIGN KEY (cpf) REFERENCES usuario (cpf),
     FOREIGN KEY (isbn) REFERENCES livros (isbn)
-)
+);
