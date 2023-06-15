@@ -10,6 +10,11 @@ body {
 }
 
 /* id=# class=. */
+
+.div {
+    margin-top: 10px;
+}
+
 .img {
     -webkit-filter: none;
     filter:blur(1px);
@@ -32,4 +37,3 @@ body {
     transition: 0.3s;
     border: solid 5px green;
 }
-
