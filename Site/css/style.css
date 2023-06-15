@@ -12,7 +12,11 @@ body {
 /* id=# class=. */
 
 .div {
-    margin-top: 10px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
 }
 
 .img {
