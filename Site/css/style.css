@@ -11,13 +11,10 @@ body {
 /* id=# class=. */
 
 .div {
-    text-align: left;
-
     transition: 0.3s;
 }
 
 .div:hover {
-    text-align: left;
     transition: 0.3s;
 }
 
@@ -25,10 +22,16 @@ body {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
+    z-index: -1;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 20px;
 }
 
 #img1:hover {
     -webkit-filter: none;
     filter:blur(1px);
+    z-index: -1;
+    border-radius: 20px;
 }
 
