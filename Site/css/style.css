@@ -11,9 +11,8 @@ body {
 
 /* id=# class=. */
 .img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
+    -webkit-filter: none;
+    filter:blur(1px);
     z-index: -1;
     height: 80vh;
     width: 25vw;
@@ -23,8 +22,9 @@ body {
 }
 
 .img:hover {
-    -webkit-filter: none;
-    filter:blur(1px);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
     z-index: -1;
     height: 85vh;
     width: 28vw;
