@@ -13,6 +13,7 @@ body {
 
 .div {
     margin: auto;
+    margin-top: 50px;
 }
 
 .container {
@@ -20,8 +21,6 @@ body {
 }
 
 .img {
-    -webkit-filter: none;
-    filter:blur(1px);
     z-index: -1;
     height: 80vh;
     width: 25vw;
