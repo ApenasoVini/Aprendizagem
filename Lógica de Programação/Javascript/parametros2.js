@@ -1,6 +1,6 @@
-function repeticoes() {
+function repeticoes(vezes) {
 
-    var vezes = prompt("Quantas vezes o elemento vai ser repetido?")
+    vezes = prompt("Quantas vezes o elemento vai ser repetido?")
     for (let i = 0; i < vezes; i++) {
         array.push("+")
     }
