@@ -31,10 +31,6 @@ body {
     color: white;
 }
 
-.botao:hover{
-    background-color: black;
-}
-
 #display{
     width: 224px;
     background-color: white;

@@ -17,6 +17,6 @@ function calcular() {
     let result = eval(display.value);
     display.value = result;
   } catch (e) {
-    console.log('Erro ao calcular: ' + e);
+    display.value = ('Erro ao calcular: ' + e);
   }
 }
