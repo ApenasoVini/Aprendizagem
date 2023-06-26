@@ -1,5 +1,8 @@
-function obterDadosClima(nome) {
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${nome}&appid=${api}&units=metric`;
+function obterDadosClima() {
+
+let name = document.getElementById(dados)
+
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${api}&units=metric`;
 
   fetch(url)
     .then(response => response.json())
@@ -19,4 +22,4 @@ function obterDadosClima(nome) {
     });
 }
 
-obterDadosClima(nome);
+obterDadosClima();
