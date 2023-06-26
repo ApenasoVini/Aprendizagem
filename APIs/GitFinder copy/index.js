@@ -1,14 +1,14 @@
-let namePokemon;
+let nomePokemon;
 
 function dados() {
-    namePokemon = document.getElementById('n');
+    nomePokemon = document.getElementById('n');
 }
 
 function poke() {
     dados();
 
-    if (namePokemon) {
-        var url = `https://pokeapi.co/api/v2/pokemon/${namePokemon.value}`
+    if (nomePokemon) {
+        var url = `https://pokeapi.co/api/v2/pokemon/${nomePokemon.value}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -17,7 +17,7 @@ function poke() {
                 const infoPokemon = document.getElementById('info');
                 infoPokemon.innerHTML = `
                
-                    <span id='nome'>${data.nome}</span>
+                    <span id='name'>${data.name}</span>
                 `;
             });
     }
