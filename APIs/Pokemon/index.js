@@ -18,6 +18,10 @@ function poke() {
                 infoPokemon.innerHTML = `
                
                     <span id='name'>${data.name}</span>
+                    <span id='type'>${data.types.name}</span>
+                    <span id='id'>${data.id}</span>
+                    <span class='sprites'>${data.back_default}</span>
+                    <span class='sprites'>${data.front_default}</span>
                 `;
             });
     }
