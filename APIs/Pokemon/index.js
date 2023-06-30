@@ -1,7 +1,7 @@
 let nomePokemon;
 
 function dados() {
-    nomePokemon = document.getElementById('n');
+    nomePokemon = document.getElementById('pokemonName');
 }
 
 function poke() {
@@ -18,10 +18,10 @@ function poke() {
                 infoPokemon.innerHTML = `
                
                     <span id='name'>${data.name}</span>
-                    <span id='type'>${data.types.name}</span>
+                    <span id='types'>${data.types}</span>
                     <span id='id'>${data.id}</span>
-                    <span class='sprites'>${data.back_default}</span>
-                    <span class='sprites'>${data.front_default}</span>
+                    <img class='back_default'>${data.back_default}</span>
+                    <img class='front_default'>${data.front_default}</span>
                 `;
             });
     }
