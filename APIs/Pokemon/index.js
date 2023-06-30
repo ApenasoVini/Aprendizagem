@@ -17,11 +17,11 @@ function poke() {
                 const infoPokemon = document.getElementById('info');
                 infoPokemon.innerHTML = `
                
-                    <span id='name'>${data.name}</span>
-                    <span id='types'>${data.types}</span>
-                    <span id='id'>${data.id}</span>
-                    <img class='back_default'>${data.back_default}</span>
-                    <img class='front_default'>${data.front_default}</span>
+                <span id='name'>${data.name}</span>
+                <span id='types'>${data.types[0].type.name}</span>
+                <span id='id'>${data.id}</span>
+                <img class='back_default'>${data.back_default}</span>
+                <img class='front_default'>${data.sprites.front_default}</span>
                 `;
             });
     }
