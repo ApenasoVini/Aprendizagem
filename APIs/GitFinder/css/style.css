@@ -6,7 +6,6 @@
 
 body {
     background-color: black;
-    
 }
 
 /* id= # class= . */
@@ -17,16 +16,16 @@ body {
     font-family: system-ui;
     padding: 5px;
     border-radius: 5px;
-    
+
 }
 
 #info {
     text-align: center;
     font-size: medium;
     font-family: Arial;
-    color: white; 
+    color: white;
     margin-top: 5px;
-    
+
 }
 
 #titulo {
