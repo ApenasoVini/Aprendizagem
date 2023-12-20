@@ -7,28 +7,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
-    color: #5f0047;
+    color: #000000;
     height: 100vh;
     width: 100vw;
-
-}
-
-.container {
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    gap: 5rem;
 }
 
-.container form {
+form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 50%;
     gap: 1rem;
-    padding: 1%;
-    border: 2px solid #5f0047;
 }
 
 #info {
